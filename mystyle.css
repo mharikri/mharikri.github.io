@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Great+Vibes&family=Parisienne&family=Sacramento&family=The+Nautigal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255,248,236);
+    background: linear-gradient(110deg, rgba(255,248,236,1) 0%, rgba(255,227,131,1) 52%, rgba(0,212,255,1) 86%, rgba(33,187,255,1) 100%);
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+.empty-box {
+    width: 100vh;
+    height: 100vh;
+}
+.card {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    margin: 30px;
+    padding: 20px;
+    z-index: 10;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.15);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.content {
+    color: black;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.content #line1 {
+    font-size: 0.6em;
+    padding: 5px;
+}
+
+/* .content #line2 {
+    font-size: 0.9em;
+} */
+
+.content h1 {
+    font-size: 3em;
+    font-family: 'The Nautigal', cursive;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.content #line6 {
+    font-size: 0.6em;
+}
+
+.content #line7 {
+    font-size: 0.8em;
+}
+
+.content #line8 {
+    font-size: 0.6em;
+}
+
+.bgElements {
+    width: 90%;
+    height: auto;
+    border: 15px solid darkblue;
+    padding: 50px;
+    margin: 20px;
+}
+#blue_house {
+    position:absolute;
+    top: 0.7%;
+    left: 6.5%;
+    z-index: 1;
+    width: 60%;
+    height: auto;
+}
+.tree {
+    width: 15%;
+    height: auto;
+}
+#tree1 {
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    z-index: 0;
+}
+#tree2 {
+    position:absolute;
+    top: 8%;
+    left: 17%;
+    width: 23%;
+    z-index: 2;
+}
+#tree3 {
+    position:absolute;
+    top: 35%;
+    left: 10%;
+    width: 12%;
+    z-index: 1;
+}
+#tree4 {
+    position:absolute;
+    top: 20%;
+    left: 45%;
+    z-index: 3;
+}
+.bird {
+    width: 5%;
+    height: auto;
+}
+#bird1{
+    position:absolute;
+    top: 5%;
+    left: 10%;
+}
+#bird2{
+    position:absolute;
+    top: 12%;
+    left: 38%;
+}
+#bird3{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+}
+#bird4{
+    position:absolute;
+    top: 5%;
+    left: 55%;
+}
+#bird5{
+    position:absolute;
+    top: 0%;
+    left: 50%;
+}
+#sun {
+    position:absolute;
+    top: 0%;
+    left: 30%;
+    width: 10%;
+    height: auto;
+}
+#board {
+    position:absolute;
+    top: 40%;
+    left: 70%;
+    width: 30%;
+    height: auto;
+}
+#soundOn {
+    position:absolute;
+    width: 3%;
+    height: auto;
+}
+#soundOff {
+    position:absolute;
+    left: 0%;
+    width: 3%;
+    height: auto;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="bgElements" >
+        <img id="blue_house" class="animate__animated animate__fadeIn" src="blue house abstract.png">
+        <img id="tree2" class="tree animate__animated animate__fadeIn animate__delay-1s" src="tree2.png">
+        <img id="tree3" class="tree animate__animated animate__fadeIn animate__delay-2s" src="tree3.png">
+        <img id="tree4" class="tree animate__animated animate__fadeIn animate__delay-2s" src="tree4.png">
+        <img id="tree1" class="tree animate__animated animate__fadeIn animate__delay-2s" src="tree1.png">
+        <img id="bird1" class=" bird animate__animated animate__fadeIn animate__delay-1s " src="BIRD 1.png">
+        <img id="bird2" class=" bird animate__animated animate__fadeIn animate__delay-2s" src="BIRD 2.png">
+        <img id="bird3" class=" bird animate__animated animate__fadeIn animate__delay-1s" src="BIRD 3.png">
+        <img id="bird4" class=" bird animate__animated animate__fadeIn animate__delay-2s" src="BIRD 4.png">
+        <img id="bird5" class=" bird animate__animated animate__fadeIn animate__delay-2s" src="BIRD 5.png">
+        <img id="sun" class="animate__animated animate__fadeInUp animate__delay-3s" src="SUN.png">
+        <!-- <img id="board" class="animate__animated animate__fadeInUp animate__delay-5s" src="NAME BOARD.png"> -->
+    </div>
+
+    <div class="container">
+        
+        <div class="empty-box"></div>
+    
+        <div class="card">
+            <div class="content">
+                <p id='line1'>Geetha and Harikrishnan family</p>
+                <p id='line2'>Welcomes you to the engagement of</p>
+                <h1>Murali Krishnan</h1>
+                <h1>&</h1>
+                <h1>Amrutha Boban</h1>
+                <p id='line6'>January 23rd, at Nine o'Clock in the morning</p>
+                <p id='line7'> @ The Blue House</p>
+                <p id='line8'>Water Edge Lane, No.10, 5th Ave, Sea Cliff Conclave, Akkarai, Chennai - 600119</p>
+            </div>
+        </div>
+  
+        
+    </div>
+    <audio id="myAudio" autoplay preload="auto" loop>
+        <source src="beachWaves.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <script type="text/javascript">
+        function togglePlay() {
+            var myAudio = document.getElementById("myAudio");
+            return myAudio.paused ? myAudio.play() : myAudio.pause();
+        };
+    </script>
+</body>
+</html>
